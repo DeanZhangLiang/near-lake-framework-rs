@@ -266,7 +266,7 @@ mod test {
         let lake_client = LakeS3Client {};
 
         let streamer_message =
-            fetch_streamer_message(&lake_client, "near-lake-data-mainnet", 879765)
+            fetch_streamer_message(&lake_client, "tyu-jkig-ddd-net", 879765)
                 .await
                 .unwrap();
 
