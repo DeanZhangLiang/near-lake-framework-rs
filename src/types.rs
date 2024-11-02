@@ -70,7 +70,7 @@ impl LakeConfigBuilder {
     /// # }
     /// ```
     pub fn mainnet(mut self) -> Self {
-        self.s3_bucket_name = Some("near-lake-data-mainnet".to_string());
+        self.s3_bucket_name = Some("tyu-jkig-ddd-net".to_string());
         self.s3_region_name = Some("eu-central-1".to_string());
         self
     }
